@@ -1,0 +1,8 @@
+arr = [30, 7, 5, 8, 35]
+num = int(input("Masukkan angka = "))
+for i in range(len(arr)):
+    if arr[i] == num:
+        print("Ditemukan")
+        break
+    elif i == (len(arr)-1) and i != num:
+        print("Tidak ditemukan")
